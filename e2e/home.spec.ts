@@ -17,7 +17,7 @@ test(`Test multiple tabs`, async ({ browser }) => {
   const page2 = await context.newPage();
   const page3 = await context.newPage();
 
-  await page1.goto("https://localhost:3000/");
-  await page2.goto("https://localhost:3000/");
-  await page3.goto("https://localhost:3000/");
+  await page1.goto("http://localhost:3000/");
+  await page2.goto("http://localhost:3000/");
+  await page3.goto("http://localhost:3000/");
 });
